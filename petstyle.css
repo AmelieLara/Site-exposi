@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Satisfy&display=swap');
+
+:root{
+	--cor-preenchimento:#A84448;
+	--cor-fundo:#F6E1C3;
+	--cor-lista:#000;
+	
+	--letra-titulos:'Satisfy', cursive;
+	--letra-texto:'Poppins', sans-serif;
+}
+
+body{
+	text-align:center;
+	background-color:var(--cor-fundo);
+	padding: 2% 10%;
+}
+
+.cabecalho{
+	display:flex;
+	gap: 5%;
+}
+
+.cabecalho-link{
+	font-family:var(--letra-texto);
+	text-decoration:none;
+	color:var(--cor-lista);
+	
+}
+
+.cabecalho-link:hover{
+	text-decoration:underline;
+}
+
+
+.titulo-principal{
+	font-family:var(--letra-titulos);
+}
+
+.lista-principal{
+	font-family:var(--letra-texto);
+	margin:0 auto;
+	max-width: 70%;
+	background-color:var(--cor-preenchimento);
+	border-radius:4px;
+}
+
+.lista-principal-config{
+  line-height: 2;
+}
+
+.lista-principal li{
+  display:inline-block;
+  text-decoration: underline;
+  margin:0 auto;
+  font-size: 1.2em;
+}
+
+.lista-principal li:hover{
+	font-size:1.3em;
+	text-decoration: underline;
+}
+
+.lista-principal a{
+  color:var(--cor-lista);
+  padding: 35px;
+}
+
+.titulo-secundario{
+	font-family:var(--letra-titulos);
+}
+
+.introducao{
+	font-family:var(--letra-texto);
+}
+
+.pet-lara{
+	font-family:var(--letra-texto);
+	width: auto;
+}
+
+.titulo-lara{
+	background-color:var(--cor-preenchimento);
+	max-width:70%;
+	margin: 0 auto;
+	border-radius:4px;
+	padding: 5px 0 5px 0;
+}
+
+.lara-imagem{
+	width:60%;
+}
+
+.pet-amelie{
+	font-family:var(--letra-texto);
+	width: auto;
+}
+
+.titulo-amelie{
+	background-color:var(--cor-preenchimento);
+	max-width:70%;
+	margin: 0 auto;
+	border-radius:4px;
+	padding: 5px 0 5px 0;
+}
+
+.amelie-imagem{
+	width:48%;
+}
+
+.titulo-pet-juntos{
+	font-family:var(--letra-titulos);
+}
+
+.fuxiqueiros{
+	width:65%;
+}
+
+.informacoes{
+	font-family:var(--letra-texto);
+}
+
+.informacoes-lista-config{
+	list-style-type:none;
+}
+
+.informacoes-lista li:hover{
+	text-decoration:underline;
+	font-size:1.1em;
+}
+
+.informacoes-lista a{
+	color:var(--cor-lista);
+	text-decoration:none;
+}
+
+.formulario-titulo{
+	text-decoration:underline;
+	font-size: 1.1em;
+}
+
+button{
+  background-color: var(--cor-preenchimento);
+  border:2px solid;
+  border-radius: 3px;
+  padding: 2px 20px;
+}
+
+.rodape{
+	background-color:var(--cor-preenchimento);
+	padding:1px;
+	font-family: var(--letra-texto);
+	font-size: 0.8em;
+}
+
