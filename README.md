@@ -1,2 +1,2 @@
 # Site-exposi-o
-Site criados em cursos
+Site criado em curso sobre programação em front-end(html, css e javascript)
